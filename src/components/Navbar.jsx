@@ -111,13 +111,13 @@ const Navbar = () => {
             </section>
 
             {/* section-2nd (Recommended By)  */}
-            <section class="bg_color overflow-x-hidden">
-                <div class="container">
-                    <div class="py-5">
+            <section className="bg_color overflow-x-hidden">
+                <div className="container">
+                    <div className="py-5">
                         <h3>Recommended By</h3>
                     </div>
-                    <div class="sliderss1 row align-items-center px-0">
-                        <div class="col-6 col-md-3">
+                    <div className="sliderss1 row align-items-center px-0">
+                        <div className="col-6 col-md-3">
                             <img src={Vector1s} alt="#" className='imgv1 mx_width w-100' />
                         </div>
                         <div class="col-6 col-md-3">
@@ -134,85 +134,85 @@ const Navbar = () => {
             </section>
 
             {/* section-3rd (Why Choose Us)  */}
-            <section class="bg_color py-5 overflow-x-hidden" id="why">
-                <div class="container">
-                    <div class="d-flex flex-column align-items-center justify-content-center text-center">
-                        <p class="fs_xxl fw_bold ff_primary primary_color">Why Choose Us</p>
-                        <p class="ff_primary secondary_color fs_md fw_medium">A Lorem Ipsum is simply dummy text of the printing
-                            and typesetting <span class="d-lg-flex">industry. Lorem Ipsum has been the industry's
+            <section className="bg_color py-5 overflow-x-hidden" id="why">
+                <div className="container">
+                    <div className="d-flex flex-column align-items-center justify-content-center text-center">
+                        <p className="fs_xxl fw_bold ff_primary primary_color">Why Choose Us</p>
+                        <p className="ff_primary secondary_color fs_md fw_medium">A Lorem Ipsum is simply dummy text of the printing
+                            and typesetting <span className="d-lg-flex">industry. Lorem Ipsum has been the industry's
                                 standard dummy text</span> ever since the 1500s.</p>
                     </div>
                 </div>
-                <div class="row pt-5">
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="cards d-flex flex-column justify-content-center align-items-center">
+                <div className="row pt-5">
+                    <div className="col-12 col-md-6 col-lg-4">
+                        <div className="cards d-flex flex-column justify-content-center align-items-center">
                             <Icons1s/>
-                            <p class="ff_primary primary_color fs_lg fw_bold pt-3">Digital Saving</p>
-                            <p class="fs_sm fw_regular ff_primary secondary_color text-center">A Lorem Ipsum is simply dummy
-                                text <span class="d-xxl-block">of the printing and typesetting</span>industry</p>
+                            <p className="ff_primary primary_color fs_lg fw_bold pt-3">Digital Saving</p>
+                            <p className="fs_sm fw_regular ff_primary secondary_color text-center">A Lorem Ipsum is simply dummy
+                                text <span className="d-xxl-block">of the printing and typesetting</span>industry</p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4 mt-4 mt-md-0">
-                        <div class="cards d-flex flex-column justify-content-center align-items-center">
+                    <div className="col-12 col-md-6 col-lg-4 mt-4 mt-md-0">
+                        <div className="cards d-flex flex-column justify-content-center align-items-center">
                             <Icons2s/>
-                            <p class="ff_primary primary_color fs_lg fw_bold pt-3">Online Investment</p>
-                            <p class="fs_sm fw_regular ff_primary secondary_color text-center">A Lorem Ipsum is simply dummy
-                                text <span class="d-xxl-block">of the printing and typesetting</span>industry</p>
+                            <p className="ff_primary primary_color fs_lg fw_bold pt-3">Online Investment</p>
+                            <p className="fs_sm fw_regular ff_primary secondary_color text-center">A Lorem Ipsum is simply dummy
+                                text <span className="d-xxl-block">of the printing and typesetting</span>industry</p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4 mt-4 mt-lg-0">
-                        <div class="cards d-flex flex-column justify-content-center align-items-center">
+                    <div className="col-12 col-md-6 col-lg-4 mt-4 mt-lg-0">
+                        <div className="cards d-flex flex-column justify-content-center align-items-center">
                             <Icons3s/>
-                            <p class="ff_primary primary_color fs_lg fw_bold pt-3">Secure and Fast</p>
-                            <p class="fs_sm fw_regular ff_primary secondary_color text-center">A Lorem Ipsum is simply dummy
-                                text <span class="d-xxl-block">of the printing and typesetting</span>industry</p>
+                            <p className="ff_primary primary_color fs_lg fw_bold pt-3">Secure and Fast</p>
+                            <p className="fs_sm fw_regular ff_primary secondary_color text-center">A Lorem Ipsum is simply dummy
+                                text <span className="d-xxl-block">of the printing and typesetting</span>industry</p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4 mt-4">
-                        <div class="cards d-flex flex-column justify-content-center align-items-center">
+                    <div className="col-12 col-md-6 col-lg-4 mt-4">
+                        <div className="cards d-flex flex-column justify-content-center align-items-center">
                             < Icons4s/>
-                            <p class="ff_primary primary_color fs_lg fw_bold pt-3">Purchase via Cards</p>
-                            <p class="fs_sm fw_regular ff_primary secondary_color text-center">A Lorem Ipsum is simply dummy
-                                text <span class="d-xxl-block">of the printing and typesetting</span>industry</p>
+                            <p className="ff_primary primary_color fs_lg fw_bold pt-3">Purchase via Cards</p>
+                            <p className="fs_sm fw_regular ff_primary secondary_color text-center">A Lorem Ipsum is simply dummy
+                                text <span className="d-xxl-block">of the printing and typesetting</span>industry</p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4 mt-4">
-                        <div class="cards d-flex flex-column justify-content-center align-items-center">
+                    <div className="col-12 col-md-6 col-lg-4 mt-4">
+                        <div className="cards d-flex flex-column justify-content-center align-items-center">
                             <Icons5s/>
-                            <p class="ff_primary primary_color fs_lg fw_bold pt-3">Instant and fee-free
-                                <span class="d-lg-block">transaction</span>
+                            <p className="ff_primary primary_color fs_lg fw_bold pt-3">Instant and fee-free
+                                <span className="d-lg-block">transaction</span>
                             </p>
-                            <p class="fs_sm fw_regular ff_primary secondary_color text-center">A Lorem Ipsum is simply dummy
-                                text <span class="d-xxl-block">of the printing and typesetting</span>industry</p>
+                            <p className="fs_sm fw_regular ff_primary secondary_color text-center">A Lorem Ipsum is simply dummy
+                                text <span className="d-xxl-block">of the printing and typesetting</span>industry</p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4 mt-4">
-                        <div class="cards d-flex flex-column justify-content-center align-items-center">
+                    <div className="col-12 col-md-6 col-lg-4 mt-4">
+                        <div className="cards d-flex flex-column justify-content-center align-items-center">
                             <Icons6s/>
-                            <p class="ff_primary primary_color fs_lg fw_bold pt-3">Secure and Fast</p>
-                            <p class="fs_sm fw_regular ff_primary secondary_color text-center">A Lorem Ipsum is simply dummy
-                                text <span class="d-xxl-block">of the printing and typesetting</span>industry</p>
+                            <p className="ff_primary primary_color fs_lg fw_bold pt-3">Secure and Fast</p>
+                            <p className="fs_sm fw_regular ff_primary secondary_color text-center">A Lorem Ipsum is simply dummy
+                                text <span className="d-xxl-block">of the printing and typesetting</span>industry</p>
                         </div>
                     </div>
                 </div>
             </section>
 
             {/* section-choose  */}
-            <section id="choose" class="bg_color position-relative">
+            <section id="choose" className="bg_color position-relative">
                 <img src={Img1s} alt="#" className='bg-position2' />
-                <div class="container py-5">
-                    <div class="row  align-items-center">
-                        <div class="col-12 col-lg-6 order-first order-lg-first position-relative z-3">
+                <div className="container py-5">
+                    <div className="row  align-items-center">
+                        <div className="col-12 col-lg-6 order-first order-lg-first position-relative z-3">
                             <img src={Img2s} alt="#" className='w-100 position-relative z-3' />
                         </div>
-                        <div class="col-12 col-lg-6 my-5 my-lg-0">
-                            <h1 class="fs_XXl fw-bold ff-gilroy-bold">Choose and Convert your Wallet Anytime!</h1>
-                            <p class="fs-sm fw_medium ff-gilroy-light py-4">A Lorem Ipsum is simply dummy text of the printing
+                        <div className="col-12 col-lg-6 my-5 my-lg-0">
+                            <h1 className="fs_XXl fw-bold ff-gilroy-bold">Choose and Convert your Wallet Anytime!</h1>
+                            <p className="fs-sm fw_medium ff-gilroy-light py-4">A Lorem Ipsum is simply dummy text of the printing
                                 and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
                                 1500s, when an unknown.
                                 A Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                            <span class=" align-items-center d-flex justify-content-center justify-content-lg-start">
-                                <button class="connectwallet_btn fs-md fw-bold text_color ff-gilroy-bold">Choose your
+                            <span className=" align-items-center d-flex justify-content-center justify-content-lg-start">
+                                <button className="connectwallet_btn fs-md fw-bold text_color ff-gilroy-bold">Choose your
                                     wallet</button>
                             </span>
                         </div>
@@ -221,35 +221,35 @@ const Navbar = () => {
             </section>
 
             {/* section-available  */}
-            <section id="available" class="bg_color position-relative">
+            <section id="available" className="bg_color position-relative">
                 <img src={Img3s} alt="#" className='bg-position ' />
-                <div class="container py-5">
-                    <div class="row  align-items-center">
-                        <div class="col-12 col-lg-6 order-last order-lg-first position-relative z-3 my-5 my-lg-0">
-                            <h1 class="fs_XXl fw-bold ff-gilroy-bold">Available and Download Anytime!</h1>
-                            <p class="fs-sm fw_medium ff-gilroy-light py-4">A Lorem Ipsum is simply dummy text of the printing
+                <div className="container py-5">
+                    <div className="row  align-items-center">
+                        <div className="col-12 col-lg-6 order-last order-lg-first position-relative z-3 my-5 my-lg-0">
+                            <h1 className="fs_XXl fw-bold ff-gilroy-bold">Available and Download Anytime!</h1>
+                            <p className="fs-sm fw_medium ff-gilroy-light py-4">A Lorem Ipsum is simply dummy text of the printing
                                 and typesetting industry. Lorem Ipsum has been
                                 the industry's standard.</p>
-                            <div class="d-block">
+                            <div className="d-block">
                                 <div
-                                    class="flex-column align-items-center d-flex flex-sm-row justify-content-center justify-content-lg-start">
-                                    <div class="play-store-box">
-                                        <div class="d-flex ">
+                                    className="flex-column align-items-center d-flex flex-sm-row justify-content-center justify-content-lg-start">
+                                    <div className="play-store-box">
+                                        <div className="d-flex ">
                                             <Icon1a/>
                                             <div>
-                                                <h1 class="ff-gilroy-light fs-8 white_color fw_regular m-0">GET IN ON</h1>
+                                                <h1 className="ff-gilroy-light fs-8 white_color fw_regular m-0">GET IN ON</h1>
                                                 <Icon2a/>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="play-store-box mx-sm-4 my-4">
-                                        <div class="d-flex ">
-                                            <div class="me-3"> 
+                                    <div className="play-store-box mx-sm-4 my-4">
+                                        <div className="d-flex ">
+                                            <div className="me-3"> 
                                                 <Icon3a/>
                                             </div>
                                             <div>
-                                                <h1 class="ff-gilroy-light fs-8 white_color fw_regular m-0">Download on the</h1>
-                                                <p class="ff-gilroy-light white_color fw_bold fs-16 m-0">App Store</p>
+                                                <h1 className="ff-gilroy-light fs-8 white_color fw_regular m-0">Download on the</h1>
+                                                <p className="ff-gilroy-light white_color fw_bold fs-16 m-0">App Store</p>
 
                                             </div>
                                         </div>
@@ -266,23 +266,23 @@ const Navbar = () => {
             </section>
 
             {/* section-ready  */}
-            <section id="ready" class="bg-pic">
-                <div class="container">
-                    <div class=" justify-content-center">
-                        <div class="d-flex text-center justify-content-center flex-column ">
-                            <h1 class="py-4 fs_xxl white_color fw_bold ff-gilroy-bold">Ready to get updated?</h1>
+            <section id="ready" className="bg-pic">
+                <div className="container">
+                    <div className=" justify-content-center">
+                        <div className="d-flex text-center justify-content-center flex-column ">
+                            <h1 className="py-4 fs_xxl white_color fw_bold ff-gilroy-bold">Ready to get updated?</h1>
                             <div>
-                                <p class="m-0 ff-gilroy-light fs_md tertiary_color fw_medium">A Lorem Ipsum is simply dummy
+                                <p className="m-0 ff-gilroy-light fs_md tertiary_color fw_medium">A Lorem Ipsum is simply dummy
                                     text
                                     of the printing and typesetting industry. Lorem Ipsum has
                                     been the
                                     industry's standard.</p>
                             </div>
-                            <div class="d-flex flex-column  flex-lg-row align-items-center py-5 justify-content-center">
-                                <input class=" white_color input-property ff-gilroy-light fs_sm fw_regular" type="text"
+                            <div className="d-flex flex-column  flex-lg-row align-items-center py-5 justify-content-center">
+                                <input className=" white_color input-property ff-gilroy-light fs_sm fw_regular" type="text"
                                     placeholder="Email Address" />
                                 <button
-                                    class="ff-gilroy-bold fs_md fw_bold submit-btn white_color m-l-5 my-3 my-lg-0">Submit</button>
+                                    className="ff-gilroy-bold fs_md fw_bold submit-btn white_color m-l-5 my-3 my-lg-0">Submit</button>
                             </div>
                         </div>
                     </div>
@@ -290,14 +290,14 @@ const Navbar = () => {
             </section>
              {/* footer  */}
             <footer>
-                <div class="container">
-                    <div class="footer-section">
-                        <div class="row">
-                            <div class="col-12 col-lg-6 order-last order-lg-first ">
-                                <h1 class="ff-gilroy-bold color-green fs-62">B<span class="color-orange">.</span>Th</h1>
-                                <p class="ff-gilroy-light secondary_color fs_md fw_medium ">A Lorem Ipsum is simply dummy text
+                <div className="container">
+                    <div className="footer-section">
+                        <div className="row">
+                            <div className="col-12 col-lg-6 order-last order-lg-first ">
+                                <h1 className="ff-gilroy-bold color-green fs-62">B<span className="color-orange">.</span>Th</h1>
+                                <p className="ff-gilroy-light secondary_color fs_md fw_medium ">A Lorem Ipsum is simply dummy text
                                     of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
-                                <div class="d-flex gap-3 align justify-content-center justify-content-lg-start">
+                                <div className="d-flex gap-3 align justify-content-center justify-content-lg-start">
                                     <a href="#">
                                         < Icon1f/>
                                     </a>
@@ -309,41 +309,41 @@ const Navbar = () => {
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-12 col-lg-6">
-                                <div class="row py-3 py-lg-0 text-center text-lg-start">
-                                    <div class="col-12 col-md-6 justify-content-center d-flex py-2 py-lg-0">
+                            <div className="col-12 col-lg-6">
+                                <div className="row py-3 py-lg-0 text-center text-lg-start">
+                                    <div className="col-12 col-md-6 justify-content-center d-flex py-2 py-lg-0">
                                         <ul>
-                                            <li class="py-2"><a href=""
-                                                class="ff-gilroy-bold fw_bold fs_lg primary_color  p-lg-0 ">About Us</a>
+                                            <li className="py-2"><a href=""
+                                                className="ff-gilroy-bold fw_bold fs_lg primary_color  p-lg-0 ">About Us</a>
                                             </li>
-                                            <li class="py-2"><a href=""
-                                                class="ff-gilroy-light secondary_color fs_md fw_regular line">Whitepaper</a>
+                                            <li className="py-2"><a href=""
+                                                className="ff-gilroy-light secondary_color fs_md fw_regular line">Whitepaper</a>
                                             </li>
-                                            <li class="py-2"><a href=""
-                                                class="ff-gilroy-light secondary_color fs_md fw_regular line">Blog</a></li>
-                                            <li class="py-2"><a href=""
-                                                class="ff-gilroy-light secondary_color fs_md fw_regular  line">Activity</a>
+                                            <li className="py-2"><a href=""
+                                                className="ff-gilroy-light secondary_color fs_md fw_regular line">Blog</a></li>
+                                            <li className="py-2"><a href=""
+                                                className="ff-gilroy-light secondary_color fs_md fw_regular  line">Activity</a>
                                             </li>
                                         </ul>
                                     </div>
-                                    <div class="col-12 col-md-6 justify-content-center d-flex py-2  py-lg-0">
-                                        <ul class="white_s_nowwrap ">
-                                            <li class="py-2"><a href=""
-                                                class="ff-gilroy-bold fw_bold fs_lg primary_color py-3 position-relative">Support</a>
+                                    <div className="col-12 col-md-6 justify-content-center d-flex py-2  py-lg-0">
+                                        <ul className="white_s_nowwrap ">
+                                            <li className="py-2"><a href=""
+                                                className="ff-gilroy-bold fw_bold fs_lg primary_color py-3 position-relative">Support</a>
                                             </li>
-                                            <li class="py-2"><a href=""
-                                                class="ff-gilroy-light secondary_color fs_md fw_regular py-2 line">Help &
+                                            <li className="py-2"><a href=""
+                                                className="ff-gilroy-light secondary_color fs_md fw_regular py-2 line">Help &
                                                 Support</a>
                                             </li>
-                                            <li class="py-2"><a href=""
-                                                class="ff-gilroy-light secondary_color fs_md fw_regular py-2 line">Community</a>
+                                            <li className="py-2"><a href=""
+                                                className="ff-gilroy-light secondary_color fs_md fw_regular py-2 line">Community</a>
                                             </li>
-                                            <li class="py-2"><a href=""
-                                                class="ff-gilroy-light secondary_color fs_md fw_regular py-2 line">Author
+                                            <li className="py-2"><a href=""
+                                                className="ff-gilroy-light secondary_color fs_md fw_regular py-2 line">Author
                                                 Profile</a>
                                             </li>
-                                            <li class="py-2"><a href=""
-                                                class="ff-gilroy-light secondary_color fs_md fw_regular py-2 line">Contact</a>
+                                            <li className="py-2"><a href=""
+                                                className="ff-gilroy-light secondary_color fs_md fw_regular py-2 line">Contact</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -353,7 +353,7 @@ const Navbar = () => {
                     </div>
                 </div>
                 <h1
-                    class="ff-gilroy-light fw_regular  secondary_color fs_md align-content-center justify-content-center d-flex py-2">
+                    className="ff-gilroy-light fw_regular  secondary_color fs_md align-content-center justify-content-center d-flex py-2">
                     All rights reserved@2021</h1>
             </footer>
         </div>
